@@ -1,0 +1,114 @@
+* {
+    font-family: Helvetica;
+}
+
+/* BG */
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative');
+
+/* div.background {
+  overflow: hidden;
+  background: #000;
+  padding: 0px;
+  margin: 0px;
+
+  position: absolute;
+}
+
+div.two {
+    display: flex;
+}
+
+div.main {
+    position: fixed;
+} */
+
+#navbar {
+    border-bottom: 1px solid #CCC;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+    justify-content: space-around;
+}
+
+#navbar ul li {
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form,
+.books-container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: .5em;
+}
+
+.form-control label {
+    font-weight: bold;
+
+    margin-bottom: .3em;
+}
+
+.form-control input {
+    padding: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* BOOKS */
+.books-container div {
+    border-bottom: 1px solid #CCC;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* BOOK */
+#book-page {
+    padding: 2em;
+}
+
+#book-page .container {
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.actions a {
+    margin-right: 1rem;
+}
