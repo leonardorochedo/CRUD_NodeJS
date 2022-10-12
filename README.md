@@ -4,7 +4,7 @@
 
 Nesse projeto aprendi a conectar o Node.js com um banco de dados que no caso foi o MySQL, aprendi a conectar ele diretamente na 'main' do projeto como também em um arquivop separado e depois o exportando para a 'main', a técnica 'pool'.
 
-Aprendi a fazer alterações no banco diretamente pelo Node.js, selecionar um elemento específico, alterar, deletar e etc.
+Aprendi a fazer alterações no banco diretamente pelo Node.js, selecionar um elemento específico, alterar, deletar e também a protejer as querys de um SQL Injection com a técnica de colocar '??' nas propriedades.
 
 Gostei muito de fazer esse projeto e com o que aprendi com ele abre um leque novo de oportunidades!!!
 
