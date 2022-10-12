@@ -3,9 +3,9 @@
         <h1>{{book.title}}</h1>
         <p>Esse livro tem {{book.page}} páginas!</p>
         <div class="actions">
-            <a href="/books/edit/{{book.id}}">Editar Livro</a>
+            <a class="button" href="/books/edit/{{book.id}}">Editar Livro</a>
         <form action="/books/remove/{{book.id}}" method="POST">
-            <input type="submit" value="Remover">
+            <input class="button" type="submit" value="Remover">
         </form>
         </div>
     </div>
